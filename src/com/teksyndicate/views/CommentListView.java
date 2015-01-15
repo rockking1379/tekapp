@@ -31,11 +31,20 @@ public class CommentListView extends LinearLayout
 	String topicKey;
 	Context context;
 	
+	/**
+	 * Default Inherited Constructor
+	 * @param context application viewing context
+	 */
 	public CommentListView(Context context) 
 	{
 		super(context);
 	}
 	
+	/**
+	 * Custom Constructor
+	 * @param context application viewing context
+	 * @param topicKey forum topic key, used for comments
+	 */
 	public CommentListView(Context context, String topicKey)
 	{
 		super(context);
@@ -111,5 +120,4 @@ public class CommentListView extends LinearLayout
 			e.printStackTrace();
 		}
 	}
-
 }

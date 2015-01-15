@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">Tek Syndicate</string>
-    <string name="title_activity_main_screen">Main Screen</string>
-    <string name="action_settings">Settings</string>
-    <string name="view_videos">Videos</string>
-    <string name="view_forums">Forums</string>
-    <string name="view_latest">The Latest</string>
-    <string name="title_activity_splash_screen">Tek Syndicate</string>
+    <string name="app_name">Tek Syndicate</string> <!-- Application Name -->
+    <string name="title_activity_main_screen">Main Screen</string> <!-- Main Screen Title -->
+    <string name="viewSettings">Settings</string> <!-- Viewable String for Menu Option -->
+    <string name="view_videos">Videos</string> <!-- Viewable String for Menu Option -->
+    <string name="view_forums">Forums</string> <!-- Viewable String for Menu Option -->
+    <string name="view_latest">The Latest</string> <!-- Viewable String for Menu Option -->
+    <string name="title_activity_splash_screen">Tek Syndicate</string> <!-- Splash Screen Title -->
 
     <string-array name="viewable_tags">
         <item>@string/all_videos</item>
@@ -16,20 +15,174 @@
         <item>@string/wasd</item>
         <item>@string/build_a_pc</item>
         <item>@string/diy</item>
-    </string-array>
-    
+    </string-array>    
     <string name="all_videos">All Videos</string>
     <string name="the_tek">The Tek</string>
     <string name="inbox">INBOX.EXE</string>
     <string name="wasd">WASD</string>
     <string name="build_a_pc">Build A PC</string>
     <string name="diy">DIY</string>
-
-    <string name="api_root">https://teksyndicate.com/json/v1/</string>
-    <string name="title_activity_story_view">SET TITLE</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="default_text_view">TEXT HERE</string>
-    <string name="youtube_api_key">AIzaSyAdHhmXyr3wNEajiy3nmaXgyz7FEMWaXXk</string>
-    <string name="default_avatar">https://teksyndicate.com/sites/all/themes/bootstrap/images/defaultavatar.png</string>
-
+    
+    <string-array name="forum_topics_forums">
+        <item>@string/forum_forums_intheworks</item>
+        <item>@string/forum_forums_rules_guidelines_faq</item>
+    </string-array>    
+    <string name="forum_forums_intheworks">InTheWorks</string>
+   	<string name="forum_forums_rules_guidelines_faq">Rules, Guidelines, FAQ</string>
+    
+    <string-array name="forum_topics_delectable">
+        <item>@string/forum_delectable_food_and_cooking</item>
+        <item>@string/forum_delectable_coffee_and_tea</item>
+        <item>@string/forum_delectable_beer</item>
+    </string-array>
+    <string name="forum_delectable_food_and_cooking">Food &amp; Cooking</string>
+    <string name="forum_delectable_coffee_and_tea">Coffee &amp; Tea</string>
+    <string name="forum_delectable_beer">Beer</string>
+    
+    <string-array name="forum_topics_tabmob">
+        <item>@string/forum_tabmob_phones</item>
+        <item>@string/forum_tabmob_tablets</item>
+        <item>@string/forum_tabmob_windows_mobile</item>
+        <item>@string/forum_tabmob_android</item>
+        <item>@string/forum_tabmob_ios</item>
+    </string-array>
+    <string name="forum_tabmob_phones">Phones</string>
+    <string name="forum_tabmob_tablets">Tablets</string>
+    <string name="forum_tabmob_windows_mobile">Windows Mobile</string>
+    <string name="forum_tabmob_android">Android</string>
+    <string name="forum_tabmob_ios">iOS</string>
+    
+    <string-array name="forum_topics_community">
+        <item>@string/forum_community_general_discussion</item>
+        <item>@string/forum_community_inbox_exe</item>
+        <item>@string/forum_community_hacking</item>
+        <item>@string/forum_community_code</item>
+        <item>@string/forum_community_policy_and_tech</item>
+        <item>@string/forum_community_politics</item>
+        <item>@string/forum_community_buy_sale_trade</item>
+        <item>@string/forum_community_rtw_blogs</item>
+        <item>@string/forum_community_funny</item>
+        <item>@string/forum_community_pic_war</item>
+    </string-array>
+    <string name="forum_community_general_discussion">General Discussion</string>
+    <string name="forum_community_inbox_exe">INBOX.EXE</string>
+    <string name="forum_community_hacking">Hacking</string>
+    <string name="forum_community_code">Code</string>
+    <string name="forum_community_policy_and_tech">Policy &amp; Tech</string>
+    <string name="forum_community_politics">Politics</string>
+    <string name="forum_community_buy_sale_trade">Buy/Sale/Trade</string>
+    <string name="forum_community_rtw_blogs">RazeTheWorld Blogs</string>
+    <string name="forum_community_funny">Funny</string>
+    <string name="forum_community_pic_war">Pic War</string>
+    
+    <string-array name="forum_topics_hardware">
+        <item>@string/forum_hardware_build_a_pc</item>
+        <item>@string/forum_hardware_enterprise_gear</item>
+        <item>@string/forum_hardware_makers_and_3d_printing</item>
+        <item>@string/forum_hardware_motherboards</item>
+        <item>@string/forum_hardware_cpu</item>
+        <item>@string/forum_hardware_gpu</item>
+        <item>@string/forum_hardware_overclocking</item>
+        <item>@string/forum_hardware_hdd_and_ssd</item>
+        <item>@string/forum_hardware_psu</item>
+        <item>@string/forum_hardware_hardware</item>
+        <item>@string/forum_hardware_other_hardware</item>
+        <item>@string/forum_hardware_cases_chassis</item>
+        <item>@string/forum_hardware_cooling</item>
+        <item>@string/forum_hardware_gadgets</item>
+    </string-array>
+    <string name="forum_hardware_build_a_pc">Build A PC</string>
+    <string name="forum_hardware_enterprise_gear">Enterprise Gear</string>
+    <string name="forum_hardware_makers_and_3d_printing">Makers and 3D Printing</string>
+    <string name="forum_hardware_motherboards">Motherboards</string>
+    <string name="forum_hardware_cpu">CPU</string>
+    <string name="forum_hardware_gpu">GPU</string>
+    <string name="forum_hardware_overclocking">Overclocking</string>
+    <string name="forum_hardware_hdd_and_ssd">HDD\'s &amp; SSD\'s</string>
+    <string name="forum_hardware_psu">PSu</string>
+    <string name="forum_hardware_hardware">Hardware</string>
+    <string name="forum_hardware_other_hardware">Other Hardware</string>
+    <string name="forum_hardware_cases_chassis">Cases/Chassis</string>
+    <string name="forum_hardware_cooling">Cooling</string>
+    <string name="forum_hardware_gadgets">Gadgets</string>
+    
+    <string-array name="forum_topics_audio">
+        <item>@string/forum_audio_headphones_and_headsets</item>
+        <item>@string/forum_audio_speakers</item>
+        <item>@string/forum_audio_sound_cards_dacs</item>
+    </string-array>
+    <string name="forum_audio_headphones_and_headsets">Headphones and Headsets</string>
+    <string name="forum_audio_speakers">Speakers</string>
+    <string name="forum_audio_sound_cards_dacs">Sound Cards &amp; DACs &amp; Other Hardware</string>
+    
+    <string-array name="forum_topics_crypto">
+        <item>@string/forum_btc_alt_bitcoin</item>
+        <item>@string/forum_btc_alt_litecoin</item>
+        <item>@string/forum_btc_alt_other</item>
+    </string-array>
+    <string name="forum_btc_alt_bitcoin">Bitcoin</string>
+    <string name="forum_btc_alt_litecoin">Litecoin</string>
+    <string name="forum_btc_alt_other">Other Alternative Currencies</string>
+    
+    <string-array name="forum_topics_networking">
+        <item>@string/forum_networking_software</item>
+        <item>@string/forum_networking_hardware</item>
+    </string-array>
+    <string name="forum_networking_software">Networking Software</string>
+    <string name="forum_networking_hardware">Networking Hardware</string>
+    
+    <string-array name="forum_topics_gaming">
+        <item>@string/forum_gaming_pc_gaming</item>
+        <item>@string/forum_gaming_consoles</item>
+        <item>@string/forum_gaming_retro</item>
+        <item>@string/forum_game_servers_news</item>
+        <item>@string/forum_game_servers_outdated</item>
+    </string-array>
+    <string name="forum_gaming_pc_gaming">PC Gaming</string>
+    <string name="forum_gaming_consoles">Consoles</string>
+    <string name="forum_gaming_retro">Retro Gaming</string>
+    <string name="forum_game_servers_news">Newsf</string>
+    <string name="forum_game_servers_outdated">Outdated Posts</string>
+    
+    <string-array name="forum_topics_software">
+        <item>@string/forum_software_windows</item>
+        <item>@string/forum_software_linux</item>
+        <item>@string/forum_software_mac</item>
+        <item>@string/forum_software_os</item>
+        <item>@string/forum_software_web</item>
+    </string-array>
+    <string name="forum_software_windows">Windows</string>
+    <string name="forum_software_linux">Linux</string>
+    <string name="forum_software_mac">Mac</string>
+    <string name="forum_software_os">Open Source</string>
+    <string name="forum_software_web">Web-Based</string>
+    
+    <string-array name="forum_topics_developers">
+        <item>@string/forum_developers_web_dev</item>
+        <item>@string/forum_developers_game_dev</item>
+        <item>@string/forum_developers_app_dev</item>
+        <item>@string/forum_developers_software</item>
+    </string-array>
+    <string name="forum_developers_web_dev">Web Development</string>
+    <string name="forum_developers_game_dev">Game Development</string>
+    <string name="forum_developers_app_dev">Mobile App Development</string>
+    <string name="forum_developers_software">Software Development</string>
+    
+    <string-array name="forum_topics_media">
+        <item>@string/forum_media_books</item>
+        <item>@string/forum_media_metal</item>
+        <item>@string/forum_media_anime_movie_tv</item>
+        <item>@string/forum_media_other</item>
+    </string-array>
+    <string name="forum_media_books">Books</string>
+    <string name="forum_media_metal">Metal</string>
+    <string name="forum_media_anime_movie_tv">Anime, Movies, &amp; TV</string>
+    <string name="forum_media_other">Other Media</string>
+    
+    <string name="api_root">https://teksyndicate.com/json/v1/</string> <!-- root URL for api -->
+    <string name="title_activity_story_view">SET TITLE</string> <!-- title for ArticleView Screen -->
+    <string name="hello_world">Hello world!</string> <!-- Default String -->
+    <string name="default_text_view">TEXT HERE</string> <!-- Default String -->
+    <string name="youtube_api_key">AIzaSyAdHhmXyr3wNEajiy3nmaXgyz7FEMWaXXk</string> <!-- API key for YouTube Player, Please Change -->
+    <string name="default_avatar">https://teksyndicate.com/sites/all/themes/bootstrap/images/defaultavatar.png</string> <!-- URL for default Avatar -->
 </resources>

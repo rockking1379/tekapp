@@ -41,6 +41,10 @@ public class CommentView extends GridLayout
 	private TextView usernameView;
 	private TextView commentView;
 	
+	/**
+	 * Default Inherited Constructor
+	 * @param context application viewing context
+	 */
 	public CommentView(Context context) 
 	{
 		super(context);
@@ -48,8 +52,9 @@ public class CommentView extends GridLayout
 	
 	/**
 	 * View of a comment
-	 * @param context viewing context
+	 * @param context application viewing context
 	 * @param comment JSON representation of the comment to be viewed
+	 * @param width width of screen
 	 */
 	public CommentView(Context context, JSONObject comment, int width)
 	{

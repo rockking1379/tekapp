@@ -107,13 +107,30 @@ public class MainScreen extends Activity
 	{
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings)
+		// as you specify a parent activity in AndroidManifest.xml.		
+		switch(item.getItemId())
 		{
-			return true;
+			case R.id.viewVideos:
+			{
+				return true;
+			}
+			case R.id.viewLatest:
+			{
+				return true;
+			}
+			case R.id.viewForums:
+			{
+				return true;
+			}
+			case R.id.viewSettings:
+			{
+				return true;
+			}
+			default:
+			{
+				return super.onOptionsItemSelected(item);
+			}
 		}
-		return super.onOptionsItemSelected(item);
 	}
 	
 	private class SpinnerActivity extends Activity implements OnItemSelectedListener

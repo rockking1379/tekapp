@@ -22,9 +22,11 @@ import com.teksyndicate.types.Article;
 
 import android.app.Activity;
 import android.app.FragmentTransaction;
+import android.graphics.Point;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Display;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -80,6 +82,12 @@ public class ArticleView extends Activity
 		
 		storyText = new TextView(ArticleView.this.getApplicationContext()); //create textview for all that wonderful text			
 		storyLayout.addView(storyText); //add to linear layout
+		
+		Display d = this.getWindowManager().getDefaultDisplay();
+		Point size = new Point();
+		d.getSize(size);
+		storyText.setWidth(size.x);
+		
 		commentToggleButton = new Button(ArticleView.this.getApplicationContext());
 		commentToggleButton.setLayoutParams(new LinearLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT));
 		commentToggleButton.setText("Show Comments");
@@ -118,13 +126,34 @@ public class ArticleView extends Activity
 	{
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings)
+		// as you specify a parent activity in AndroidManifest.xml.		
+		switch(item.getItemId())
 		{
-			return true;
+			case R.id.viewVideos:
+			{
+				finish();
+				return true;
+			}
+			case R.id.viewLatest:
+			{
+				finish();
+				return true;
+			}
+			case R.id.viewForums:
+			{
+				finish();
+				return true;
+			}
+			case R.id.viewSettings:
+			{
+				finish();
+				return true;
+			}
+			default:
+			{
+				return super.onOptionsItemSelected(item);
+			}
 		}
-		return super.onOptionsItemSelected(item);
 	}
 	
 	@Override
