@@ -181,6 +181,7 @@ public class ArticleView extends Activity
 		public void onInitializationFailure(Provider provider, YouTubeInitializationResult result) 
 		{
 			//initialization of youtube player failed
+			Log.e("YOUTUBE_ERROR", result.toString());
 			Toast.makeText(ArticleView.this.getApplicationContext(), "YouTube Initialization Error", Toast.LENGTH_LONG).show();
 		}
 

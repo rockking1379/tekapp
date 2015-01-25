@@ -15,6 +15,5 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
-        android:layout_below="@+id/rtwLogoView"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
