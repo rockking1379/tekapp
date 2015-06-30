@@ -1,6 +1,6 @@
 package com.teksyndicate.views;
 
-public class ForumTopicSummaryView 
+public class ForumTopicSummaryView
 {
-	
+
 }
